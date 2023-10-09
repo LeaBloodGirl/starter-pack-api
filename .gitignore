@@ -1,0 +1,7 @@
+.vscode/
+api-tisseo-go.exe
+swag.exe
+*.exe
+swagger_v1.0.json
+swagger.yaml
+config.yml

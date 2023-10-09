@@ -1,0 +1,24 @@
+server:
+  host:
+  port:
+  certif:
+  certifkey:
+
+logs1:
+  path:
+  level:
+  
+logs2:
+  path:
+  level:
+
+userdb:
+  host:
+  port:
+  username:
+  password:
+  dbname:
+
+cache:
+  expirationtime:
+  expurgetime:
