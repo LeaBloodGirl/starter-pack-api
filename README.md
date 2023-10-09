@@ -47,4 +47,4 @@ The project is divided into different sub-packages with the aim of simplifying t
 
 ## Get the swagger.json
 - `Replace the needed information in the following URL
-  ```http://yourhost:yourport/json/swagger_v(numéroversion).json?key=yourkey```
+  ```http://yourhost:yourport/json/swagger_v(numéroversion).json```
