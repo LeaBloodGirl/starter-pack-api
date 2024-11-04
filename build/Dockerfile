@@ -10,7 +10,7 @@ RUN go install github.com/swaggo/swag/cmd/swag@latest
 
 COPY . .
 
-RUN swag init -g cmd/escargo/main.go
-RUN go build -v -o /usr/local/bin/escargo cmd/escargo/main.go
+RUN swag init -g cmd/starter-pack-api/main.go
+RUN go build -v -o /usr/local/bin/starter-pack-api cmd/starter-pack-api/main.go
 
-ENTRYPOINT [ "escargo"]
+ENTRYPOINT [ "starter-pack-api"]
